@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.6+commit.11564f7e"
+		"version": "0.8.19+commit.7dd6d404"
 	},
 	"language": "Solidity",
 	"output": {
@@ -47,7 +47,7 @@
 		"compilationTarget": {
 			"contracts\\1_GetterSetter.sol": "testGetterSetter"
 		},
-		"evmVersion": "berlin",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"contracts\\1_GetterSetter.sol": {
-			"keccak256": "0x830f4e278e8407e8f5c9710782ac7d848ab1c3934fad213b7efd507f3ef0ca3b",
+			"keccak256": "0xc81a29213b9f8a0371939d8b2daa166685f6a007640e33bb00da3d0d9b2dacc6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://24b70892954b615340a37d4e0701845029897071e565785223b52d0e4c9c61eb",
-				"dweb:/ipfs/QmNQGXZK8i8fPWdpJX4rwTYAXurqzuUM5LxJmtVnX58Tve"
+				"bzz-raw://04be36a8f681b8bda3054b20c457304a97061b036959d626039a466c31f9fed1",
+				"dweb:/ipfs/QmNnZgR8irzVz31bXhYGh94cufZisSPawmqNaBRfimsdxb"
 			]
 		}
 	},
