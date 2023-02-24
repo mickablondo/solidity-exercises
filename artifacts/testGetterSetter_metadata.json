@@ -7,7 +7,59 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "getEstCeVrai",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getEtherAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMaPhrase",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getNombre",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getUnsignedNombre",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -21,12 +73,64 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bool",
+						"name": "_estCeVrai",
+						"type": "bool"
+					}
+				],
+				"name": "setEstCeVrai",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_etherAddress",
+						"type": "address"
+					}
+				],
+				"name": "setEtherAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_maPhrase",
+						"type": "string"
+					}
+				],
+				"name": "setMaPhrase",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
 						"name": "_nombre",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"name": "setNombre",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_unsignedNombre",
+						"type": "uint256"
+					}
+				],
+				"name": "setUnsignedNombre",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -60,11 +164,11 @@
 	},
 	"sources": {
 		"contracts\\1_GetterSetter.sol": {
-			"keccak256": "0xc81a29213b9f8a0371939d8b2daa166685f6a007640e33bb00da3d0d9b2dacc6",
+			"keccak256": "0xd020777cf5881cc0e484ad7add755c525421efbcd00a6fbeebca708a2574dbee",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://04be36a8f681b8bda3054b20c457304a97061b036959d626039a466c31f9fed1",
-				"dweb:/ipfs/QmNnZgR8irzVz31bXhYGh94cufZisSPawmqNaBRfimsdxb"
+				"bzz-raw://dd3feec31bdb5adea617dab0f160c93591fdd15ea4259ffdebdee74e2ba69901",
+				"dweb:/ipfs/QmPq5KNdYwogn8kr2WP5SYPttv3a3T2rKh52TFbmcXZ5jt"
 			]
 		}
 	},
