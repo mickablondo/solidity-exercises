@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pay",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\3_Mapping.sol": "testMapping"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\3_Mapping.sol": {
+			"keccak256": "0x8fddb56244a0118de0fa075275b5062ecc934de55d987c19eb585c08b1235d6a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8e60ddf1b202f2ed815bbfc116a1bebf3392a0ea9d1228528151b5f0b9ee8cba",
+				"dweb:/ipfs/QmPKPsBumcT7HZXrrCKUVK4rW4z8dUcpTaCaacdcUN2Emb"
+			]
+		}
+	},
+	"version": 1
+}
