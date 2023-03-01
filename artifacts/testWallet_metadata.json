@@ -96,7 +96,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts\\5_Wallet.sol": "testStructure"
+			"contracts\\5_Wallet.sol": "testWallet"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -111,11 +111,11 @@
 	},
 	"sources": {
 		"contracts\\5_Wallet.sol": {
-			"keccak256": "0x0a3ba0155ed1d1d7af96afce86e30b41b30f1c9f8b804d572578735b9d007145",
+			"keccak256": "0x14daa699a8847c78268ad6c177bb48e378c6e2653195637abeed8be4f5376500",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://36fff3b5b123e2666ca21bf670502819fb7c907e413ad159d3ce448ebfeb3b7d",
-				"dweb:/ipfs/QmQLyF7X1rRYpsmfzf8YqDoZqBv5MkxbY7Y11ibBuwM6Ao"
+				"bzz-raw://5acf4d61bb87f95d19e9781a12b24266b4801a30da1633b7f7714d977b85ba36",
+				"dweb:/ipfs/QmbSAjmoy69ZFtssSkZjm3qdbMEcpyu1aADcKUmW7aZNmH"
 			]
 		}
 	},
