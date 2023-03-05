@@ -18,3 +18,4 @@ Regroupe l'ensemble des exercices réalisés pour apprendre solidity :
  - [Ben BK](https://www.youtube.com/@BenBK)
  - [Documentation officielle](https://docs.soliditylang.org/)
  - [Crypto Zombies](https://cryptozombies.io/fr/)
+ - [Maîtriser Ethereum](https://github.com/maitriser-ca/LivreMaitriserEthereum)
