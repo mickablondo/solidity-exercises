@@ -8,6 +8,7 @@ Regroupe l'ensemble des exercices réalisés pour apprendre solidity :
 4 - Tester le type 'struct' pour cumuler les sommes d'argent envoyées et le nombre de paiements réalisés par l'adresse qui interroge le smart contract.  
 5 - Créer un wallet pour envoyer de l'argent à quelqu'un en partie ou entièrement, ou, récupérer tout son propre argent.  
 6 - Tester les tableaux de type storage et memory.  
+🚧 7 - Gestion de matchs de basket (en construction) 🚧  
 
 ## Outils
  - [VS Code](https://code.visualstudio.com/)
