@@ -2,30 +2,36 @@
 pragma solidity 0.8.19;
 
 contract nbaGames {
-    struct Team {
-        string teamName;
-        uint score;
-    }
 
-    struct NbaMatch { // TODO à revoir => plutôt partir sur un tableau de 'Team adverses' avec le score de chacun
-        Team receivingTeam;
-        Team visitorTeam;
+    // exemple d'un ENUM => renvoi un uint qui correspond à l'emplacement du résultat
+    enum resultMatch {gagne, perdu, inconnu}
+
+    struct nbaMatch {
+        string _teamName;
+        nbaGames.resultMatch _resultMatch;
         uint date;
     }
 
-    mapping(address => NbaMatch) Matchs;
+    mapping(address => nbaMatch[]) Matchs; // mapping <adress_sender ; liste de résultats>
 
-    function addMatch(string memory _receivingTeam, uint _scoreReceivingTeam, string memory _visitorTeam, uint _scoreVisitorTeam) public {
-        Team memory receivingTeam = Team(_receivingTeam, _scoreReceivingTeam);
-        Team memory visitorTeam = Team(_visitorTeam, _scoreVisitorTeam);
-        Matchs[msg.sender].receivingTeam = receivingTeam;
-        Matchs[msg.sender].visitorTeam = visitorTeam;
-        Matchs[msg.sender].date = block.timestamp;
+    function addResultMatch(string memory _adverseTeam, uint _scoreTeam, uint _scoreAdverseTeam) public {
+        nbaMatch memory m;
+        if(_scoreTeam > _scoreAdverseTeam) {
+            m = nbaMatch(_adverseTeam, resultMatch.gagne, block.timestamp); // exemple pour gestion du temps (now)
+        } else {
+            m = nbaMatch(_adverseTeam, resultMatch.perdu, block.timestamp);
+        }
+
+        Matchs[msg.sender].push(m);
     }
 
-    function getTheWinner(string memory _receivingTeam, string memory _visitorTeam) public view returns(string memory) {
-        if(Matchs[msg.sender].receivingTeam.score > Matchs[msg.sender].visitorTeam.score) {
-
+    function getResultMatch(string memory _adverseTeam) public view returns(resultMatch) {
+        uint i;
+        for(i=0; i<Matchs[msg.sender].length; i++) { // boucle for
+            if(keccak256(bytes(Matchs[msg.sender][i]._teamName)) == keccak256(bytes(_adverseTeam))) { // comparaison de strings
+                return Matchs[msg.sender][i]._resultMatch;
+            }
         }
+        return resultMatch.inconnu;
     }
 }

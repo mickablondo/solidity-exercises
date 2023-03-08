@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_adverseTeam",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_scoreTeam",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_scoreAdverseTeam",
+						"type": "uint256"
+					}
+				],
+				"name": "addResultMatch",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_adverseTeam",
+						"type": "string"
+					}
+				],
+				"name": "getResultMatch",
+				"outputs": [
+					{
+						"internalType": "enum nbaGames.resultMatch",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\7_ManageNbaGames.sol": "nbaGames"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\7_ManageNbaGames.sol": {
+			"keccak256": "0xa914fa6d7d37acd6aa9fbc17840af3d7ec7d6cff31a4bce701dc4f67300c71fb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7db405efe075693d6b40217a81016c6f0f4a9076b0694a2241e12b4e3e3d02c5",
+				"dweb:/ipfs/QmR1F5twzoys7ioHbY4t9dyoMyj9LuvZmXMVGz54vKNKCT"
+			]
+		}
+	},
+	"version": 1
+}
