@@ -9,6 +9,7 @@ Regroupe l'ensemble des exercices réalisés pour apprendre solidity :
 5 - Créer un wallet pour envoyer de l'argent à quelqu'un en partie ou entièrement, ou, récupérer tout son propre argent.  
 6 - Tester les tableaux de type storage et memory.  
 7 - Gestion des résultats des matchs de basket d'une équipe (ENUM, Mapping+Array+Struct, date, boucle for).  
+8 - Jeu pour retrouver le nombre que le propriétaire du contrat à placé (constructor / selfdestruct, require / revert / assert).  
 
 ## Outils
  - [VS Code](https://code.visualstudio.com/)
