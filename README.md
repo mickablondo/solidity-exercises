@@ -10,6 +10,7 @@ Regroupe l'ensemble des exercices réalisés pour apprendre solidity :
 6 - Tester les tableaux de type storage et memory.  
 7 - Gestion des résultats des matchs de basket d'une équipe (ENUM, Mapping+Array+Struct, date, boucle for).  
 8 - Jeu pour retrouver le nombre que le propriétaire du contrat a placé (constructor / selfdestruct, require / revert / assert).  
+9 - Projet Solidity présenté par [Ben BK](https://www.youtube.com/@BenBK) : [Gestionnaire d'élève](https://www.youtube.com/watch?v=fLi70h1Vje8&list=PLBV4f2pTYexqgdiVpLOWlF-E5sTLPimot&index=15) (struct in struct / mapping / bytes / require / for)  
 
 ## Outils
  - [VS Code](https://code.visualstudio.com/)
