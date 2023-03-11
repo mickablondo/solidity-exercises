@@ -18,19 +18,26 @@ contract GestionnaireEleve {
     }
 
     mapping(address => Student) students;
+    string[] matieres;
 
     constructor() {
         owner = msg.sender;
+
+        // initialisation des matières
+        matieres.push("math");
+        matieres.push("francais");
+        matieres.push("histoire");
+        matieres.push("science");
     }
 
     function addStudent(address _studentAddress, string memory _firstName, string memory _lastName) public {
         require(msg.sender == owner, "Not the owner");
 
         // l'élève existe t-il déjà ?
-        bytes memory firstNameOfAddress = bytes(students[_studentAddress].firstName); // bytes comme string mais consomme moins de gaz
+        bytes memory firstNameOfAddress = bytes(students[_studentAddress].firstName); // bytes : comme string mais consomme moins de gaz
         require(firstNameOfAddress.length == 0, "Existe deja");
 
-        // Création de l'élève
+        // création de l'élève
         students[_studentAddress].firstName = _firstName;
         students[_studentAddress].lastName = _lastName;
     }
@@ -40,9 +47,14 @@ contract GestionnaireEleve {
         bytes memory firstNameOfAddress = bytes(students[_studentAddress].firstName);
         require(firstNameOfAddress.length > 0, "Il faut creer l'eleve");
 
-        // ajout de la note et de la matière
+        // ajout de la note
         students[_studentAddress].grades[students[_studentAddress].numberOfGrades].grade = _grade;
-        students[_studentAddress].grades[students[_studentAddress].numberOfGrades].subject = _subject;
+        // recherche de la matière et ajout
+        for(uint i=0;i<matieres.length;i++){
+            if(keccak256(bytes(matieres[i])) == keccak256(bytes(_subject))){
+                students[_studentAddress].grades[students[_studentAddress].numberOfGrades].subject = matieres[i];
+            }
+        }
         students[_studentAddress].numberOfGrades++;
     }
 
