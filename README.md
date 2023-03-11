@@ -12,10 +12,22 @@ Regroupe l'ensemble des exercices réalisés pour apprendre solidity :
 8 - Jeu pour retrouver le nombre que le propriétaire du contrat a placé (constructor / selfdestruct, require / revert / assert).  
 9 - Projet Solidity présenté par [Ben BK](https://www.youtube.com/@BenBK) : [Gestionnaire d'élève](https://www.youtube.com/watch?v=fLi70h1Vje8&list=PLBV4f2pTYexqgdiVpLOWlF-E5sTLPimot&index=15) revu avec une gestion des matières pré-définies en tableau (struct in struct / array / mapping / bytes / require / for)  
 
-## Outils
+## Environnement de travail
+### Outils
  - [VS Code](https://code.visualstudio.com/)
  - [Plugin Ethereum Remix](https://github.com/ethereum/remix-vscode)
  - [Ganache](https://trufflesuite.com/ganache/)
+
+### Déploiement d'un smart contract
+1. Développement sur [VS Code](https://code.visualstudio.com/).  
+2. Sur le [plugin Ethereum Remix](https://github.com/ethereum/remix-vscode), je choisis mon compiler (Set compiler version), je clique sur "Run & Deploy" et choisis "Activate".  
+3. Je lance [Ganache](https://trufflesuite.com/ganache/) et utilise le "Quickstart".  
+4. Sur le [plugin Ethereum Remix](https://github.com/ethereum/remix-vscode), je me connecte au noeud privé généré par Ganache en cliquant sur "Connect".
+5. Je choisis mon smart contract, je compile et je le déploie.  
+![](images/remix_connect.png)  
+![](images/remix-compiledeploy.png)  
+6. Il ne me reste plus qu'à jouer avec !  
+![](images/remix-tryit.png)  
 
 ## Inspirations
  - [Ben BK](https://www.youtube.com/@BenBK)
