@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
+// @author MiK@
 contract nbaGames {
 
     // exemple d'un ENUM => renvoi un uint qui correspond à l'emplacement du résultat
