@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
-import './10_Owner.sol'; // import du contrat Owner
+import 'contracts/10_Modifiers/Killer.sol'; // import du contrat Killer 
 
-contract Modifiers is Owner { // contrat Modifiers hérite du contrat Owner
+contract Modifiers is Killer { // contrat Modifiers hérite du contrat Killer qui importe lui-même le contrat Owner
     uint nombre;
 
     function setNombre(uint _nombre) public isOwner { // on appelle le modifier, inutile de remettre un require
