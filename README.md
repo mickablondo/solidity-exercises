@@ -13,6 +13,9 @@ Regroupe l'ensemble des exercices réalisés pour apprendre solidity :
 9 - Projet Solidity présenté par [Ben BK](https://www.youtube.com/@BenBK) : [Gestionnaire d'élève](https://www.youtube.com/watch?v=fLi70h1Vje8&list=PLBV4f2pTYexqgdiVpLOWlF-E5sTLPimot&index=15) revu avec une gestion des matières pré-définies en tableau (struct in struct / array / mapping / bytes / require / for)  
 10 - Test des modifiers, de l'héritage et de l'import avec un constructor et destroy.  
 11 - Exercice du wallet avec un évènement (event / emit).  
+12 - Visibilité des fonctions et variables (view / pure / public / private / internal / external).  
+13 - Les types de variables (storage / memory / calldata).  
+14 - Les évènements pour renvoyer des données à un front-end (event / emit).  
 
 ## Environnement de travail
 ### Outils

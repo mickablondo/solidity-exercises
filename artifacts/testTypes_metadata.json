@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_users",
+						"type": "uint256[]"
+					}
+				],
+				"name": "autre",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "doSomething",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "monArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\13_typesVariables.sol": "testTypes"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\13_typesVariables.sol": {
+			"keccak256": "0x414e8ca5efc6bfc7ca2f149b1fecc747fc90c9d920cf0fdd3c5e27403b0e12dd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4e6aae33e57c17f43d18c6fef955a37745ede3cbb3d4a9e471ea6eefae40b778",
+				"dweb:/ipfs/QmTre2skJRC31AMWiL8ymz5k12WrUAsWgAPEjbAkRtSAmm"
+			]
+		}
+	},
+	"version": 1
+}
