@@ -16,6 +16,7 @@ Regroupe l'ensemble des exercices réalisés pour apprendre solidity :
 12 - Visibilité des fonctions et variables (view / pure / public / private / internal / external).  
 13 - Les types de variables (storage / memory / calldata).  
 14 - Les évènements pour renvoyer des données à un front-end (event / emit).  
+15 - Utiliser des librairies (exemple réalisé avec [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts))  
 
 ## Environnement de travail
 ### Outils
