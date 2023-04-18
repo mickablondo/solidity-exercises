@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "creerNouveauContrat",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract monContrat",
+						"name": "_contrat",
+						"type": "address"
+					}
+				],
+				"name": "getNombreByContrat",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract monContrat",
+						"name": "_contrat",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nombre",
+						"type": "uint256"
+					}
+				],
+				"name": "setContratNombre",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\17_Factory.sol": "Factory"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\17_Factory.sol": {
+			"keccak256": "0x828035fa868d18a33d6bfa6b6a2dc0f4cedb4807ce8488ffb6a2bb02d567fd09",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e6c22c2cdb3b5decfb459481cd872f2a28d6c4a19f2e3ec1b0d8d6dabcc483f9",
+				"dweb:/ipfs/QmcKndngxUeFKLELrdRVfQCTW3Vwdpk4o8AJD6KXedjm46"
+			]
+		}
+	},
+	"version": 1
+}
