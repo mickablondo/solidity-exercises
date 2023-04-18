@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getNombre",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_nombre",
+						"type": "uint256"
+					}
+				],
+				"name": "setNombre",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\16_Interfaces\\B.sol": "B"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\16_Interfaces\\B.sol": {
+			"keccak256": "0x27f041ca5b7828f58933cf6da3ce99e5312181f8f2cfd86d6bf92d63421efae7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://96e422309c525cd339a6bbd47c98602be37e2f59156b82cc5cf7ab272e75ad85",
+				"dweb:/ipfs/QmVJmGBubpBb6DQaBwTuZt5x3T5NDUqM4Bt8sKa7kqs4at"
+			]
+		}
+	},
+	"version": 1
+}

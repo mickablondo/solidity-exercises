@@ -17,6 +17,7 @@ Regroupe l'ensemble des exercices réalisés pour apprendre solidity :
 13 - Les types de variables (storage / memory / calldata).  
 14 - Les évènements pour renvoyer des données à un front-end (event / emit).  
 15 - Utiliser des librairies (exemple réalisé avec [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts))  
+16 - Faire communiquer 2 smart contracts en utilisant une interface.  
 
 ## Environnement de travail
 ### Outils
