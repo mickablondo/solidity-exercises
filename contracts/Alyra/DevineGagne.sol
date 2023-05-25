@@ -15,6 +15,8 @@ contract DevineGagne is Ownable {
     address[] recordedAddresses;
     address public winner;
 
+    // TODO à améliorer : gameFinish
+
     function setMot(string memory _mot) external onlyOwner {
         mot = _mot;
     }
@@ -45,10 +47,12 @@ contract DevineGagne is Ownable {
     function reset() external onlyOwner {
         mot = "";
         indice = "";
-        winner = 0x0000000000000000000000000000000000000000;
+        winner = address(0);
 
         for(uint i = 0; i < recordedAddresses.length; i++) {
             delete(joueurs[recordedAddresses[i]]);
         }
+
+        delete recordedAddresses;
     }
 }
