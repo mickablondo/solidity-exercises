@@ -97,9 +97,9 @@ contract Notation is Ownable {
     function getAverageClass() external view returns(uint) {
         uint totalAverages;
         for(uint i=0; i<class.length; i++) {
-            totalAverages += (students[class[i]].noteBiology + students[class[i]].noteMath + students[class[i]].noteFr) / 3;
+            totalAverages += (students[class[i]].noteBiology + students[class[i]].noteMath + students[class[i]].noteFr);
         }
-        return totalAverages / class.length;
+        return totalAverages / (class.length * 3);
     }
 
     function isStudentOk(address _address) external view returns(bool) {
