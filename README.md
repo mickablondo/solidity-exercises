@@ -24,6 +24,7 @@ Regroupe l'ensemble des exercices réalisés pour apprendre solidity :
 2 exercices ont été réalisés dans le répertoire Alyra lors de ma formation :  
 - Le jeu "Deviné c'est gagné" ;  
 - Un système de notations ;  
+- exercice d'héritage et création d'instance ;  
 ## Environnement de travail
 ### Outils
  - [VS Code](https://code.visualstudio.com/)
