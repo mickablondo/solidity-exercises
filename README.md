@@ -25,6 +25,7 @@ Regroupe l'ensemble des exercices réalisés pour apprendre solidity :
 - Le jeu "Deviné c'est gagné" ;  
 - Un système de notations ;  
 - exercice d'héritage et création d'instance ;  
+- exercice pour utiliser un smart contract déployé sur un certain réseau ;  
 ## Environnement de travail
 ### Outils
  - [VS Code](https://code.visualstudio.com/)
