@@ -21,7 +21,7 @@ Regroupe l'ensemble des exercices réalisés pour apprendre solidity :
 17 - Création d'une "factory" pour créer des smart contracts.  
 18 - Mixte des exercices 5 et 10 pour créer un Wallet avec la notion de propriétaire de contrat.  
 
-2 exercices ont été réalisés dans le répertoire Alyra lors de ma formation :  
+Plusieurs exercices ont été réalisés dans le répertoire Alyra lors de ma formation :  
 - Le jeu "Deviné c'est gagné" ;  
 - Un système de notations ;  
 - exercice d'héritage et création d'instance ;  
